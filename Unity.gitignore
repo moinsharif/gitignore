@@ -68,3 +68,17 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ignore Firebase Database because file is 300mb+ single file size 243mb
+/Assets/Editor Default Resources
+/Assets/Firebase
+/Assets/Parse
+/Assets/PlayServicesResolver
+/Assets/Plugins
+
+# ignore there meta files
+Assets/Editor Default Resources.meta
+Assets/Firebase.meta
+Assets/Parse.meta
+Assets/PlayServicesResolver.meta
+Assets/Plugins.meta
